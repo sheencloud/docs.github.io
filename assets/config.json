@@ -1,0 +1,79 @@
+{
+  "siteName": "HyperKuber",
+  "logo": "assets/logo.svg",
+  "languages": [
+    {
+      "name": "简体中文",
+      "code": "zh"
+    },
+    {
+      "name": "English",
+      "code": "en"
+    }
+  ],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sheen_cloud",
+      "icon": "twitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/sheencloud",
+      "icon": "github"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://youtube.com",
+      "icon": "youtube"
+    }
+  ],
+  "navigation": [
+    {
+      "name": "Home",
+      "type": "link",
+      "state": "home",
+      "docPath": "assets/home.md",
+      "disabled": false,
+      "icon": "home"
+    },
+    {
+      "name": "Installation",
+      "type": "dropDown",
+      "state": "installation",
+      "disabled": false,
+      "icon": "get_app",
+      "sub": [
+        {
+          "name": "Quick Start",
+          "type": "link",
+          "state": "quick-start",
+          "docPath": "assets/installation/manifests.md",
+          "tocEnabled": true
+        },
+        {
+          "name": "Helm",
+          "type": "link",
+          "state": "helm",
+          "docPath": "assets/installation/helm.md",
+          "tocEnabled": true
+        },
+        {
+          "name": "Operator",
+          "type": "link",
+          "state": "operator",
+          "docPath": "assets/installation/operator.md",
+          "tocEnabled": true
+        }
+      ]
+    },
+    {
+      "name": "SheenCloud",
+      "type": "extLink",
+      "state": "https://sheencloud.com",
+      "docPath": "",
+      "disabled": false,
+      "icon": ""
+    }
+  ]
+}
