@@ -63,15 +63,23 @@
     {
       "name": "Get Started",
       "type": "dropDown",
-      "state": "installation",
+      "state": "start",
       "disabled": false,
+      "docPath": "assets/start/introduction.md",
       "icon": "get_app",
       "sub": [
         {
           "name": "Introduction",
           "type": "link",
           "state": "introduction",
-          "docPath": "assets/installation/manifests.md",
+          "docPath": "assets/start/introduction.md",
+          "tocEnabled": true
+        },
+        {
+          "name": "Prerequests",
+          "type": "link",
+          "state": "prerequests",
+          "docPath": "assets/start/prerequests.md",
           "tocEnabled": true
         },
         {
@@ -112,7 +120,7 @@
       "type": "dropDown",
       "state": "guides",
       "disabled": false,
-      "icon": "get_app"
+      "icon": "outlined_flag"
     },
     {
       "name": "SheenCloud",
