@@ -38,6 +38,13 @@
       "icon": "home",
       "sub":[
         {
+          "name": "Welcome",
+          "type": "link",
+          "state": "welcome",
+          "docPath": "assets/home.md",
+          "tocEnabled": false
+        },
+        {
           "name": "What's New",
           "type": "link",
           "state": "whats-new",
@@ -54,34 +61,58 @@
       ]
     },
     {
-      "name": "Installation",
+      "name": "Get Started",
       "type": "dropDown",
       "state": "installation",
       "disabled": false,
       "icon": "get_app",
       "sub": [
         {
-          "name": "Quick Start",
+          "name": "Introduction",
           "type": "link",
-          "state": "quick-start",
+          "state": "introduction",
           "docPath": "assets/installation/manifests.md",
           "tocEnabled": true
         },
         {
-          "name": "Helm",
+          "name": "Installation",
           "type": "link",
-          "state": "helm",
-          "docPath": "assets/installation/helm.md",
-          "tocEnabled": true
-        },
-        {
-          "name": "Operator",
-          "type": "link",
-          "state": "operator",
-          "docPath": "assets/installation/operator.md",
-          "tocEnabled": true
+          "state": "installation",
+          "docPath": "assets/installation/manifests.md",
+          "tocEnabled": false,
+          "expanded": true,
+          "sub":[
+            {
+              "name": "Quick Start",
+              "type": "link",
+              "state": "quick-start",
+              "docPath": "assets/installation/manifests.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Helm",
+              "type": "link",
+              "state": "helm",
+              "docPath": "assets/installation/helm.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Operator",
+              "type": "link",
+              "state": "operator",
+              "docPath": "assets/installation/operator.md",
+              "tocEnabled": true
+            }
+          ]
         }
       ]
+    },
+    {
+      "name": "User Guide",
+      "type": "dropDown",
+      "state": "guides",
+      "disabled": false,
+      "icon": "get_app"
     },
     {
       "name": "SheenCloud",
