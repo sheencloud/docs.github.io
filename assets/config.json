@@ -31,11 +31,27 @@
   "navigation": [
     {
       "name": "Home",
-      "type": "link",
+      "type": "dropDown",
       "state": "home",
       "docPath": "assets/home.md",
       "disabled": false,
-      "icon": "home"
+      "icon": "home",
+      "sub":[
+        {
+          "name": "What's New",
+          "type": "link",
+          "state": "whats-new",
+          "docPath": "assets/whatsnew.md",
+          "tocEnabled": false
+        },
+        {
+          "name": "Release Notes",
+          "type": "link",
+          "state": "release-notes",
+          "docPath": "assets/release-notes.md",
+          "tocEnabled": false
+        }
+      ]
     },
     {
       "name": "Installation",
