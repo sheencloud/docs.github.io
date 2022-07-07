@@ -76,9 +76,9 @@
           "tocEnabled": true
         },
         {
-          "name": "Prerequests",
+          "name": "Prerequisites",
           "type": "link",
-          "state": "prerequests",
+          "state": "prerequisites",
           "docPath": "assets/start/prerequests.md",
           "tocEnabled": true
         },
@@ -98,7 +98,7 @@
               "tocEnabled": true
             },
             {
-              "name": "Helm",
+              "name": "Helm Chart",
               "type": "link",
               "state": "helm",
               "docPath": "assets/installation/helm.md",

@@ -1,4 +1,15 @@
 {
   "Home": "Home",
-  "Blog": "Blog"
+  "Welcome": "Welcome",
+  "What's New": "What's New",
+  "Release Notes": "Release Notes",
+  "Get Started": "Get Started",
+  "Introduction": "Introduction",
+  "Prerequisites": "Prerequisites",
+  "Installation": "Installation",
+  "Quick Start": "Quick Start",
+  "Helm Chart": "Helm Chart",
+  "Operator": "Operator",
+  "User Guide": "User Guide"
+
 }

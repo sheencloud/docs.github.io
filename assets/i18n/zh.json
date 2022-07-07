@@ -1,4 +1,14 @@
 {
   "Home": "首页",
-  "Blog": "博客"
+  "Welcome": "欢迎",
+  "What's New": "最近更新",
+  "Release Notes": "版本声明",
+  "Get Started": "快速入门",
+  "Introduction": "介绍",
+  "Prerequisites": "前置条件",
+  "Installation": "安装",
+  "Quick Start": "快速开始",
+  "Helm Chart": "Helm包",
+  "Operator": "Operator安装",
+  "User Guide": "用户指南"
 }
