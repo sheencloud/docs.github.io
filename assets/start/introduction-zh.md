@@ -2,7 +2,7 @@
 
 HyperKuber 容器管理平台由四个组件组成，分别为前端Web服务，后端API服务，数据库服务(MySQL)和缓存(Redis)服务。
 
-![hykuber-arc](../images/hyperkuber-arc.png)
+![hykuber-arc](/assets/images/hyperkuber-arc.png)
 
 
 HyperKuber 支持灵活的部署方式，其组件均已支持容器化部署。 所有组件既可以部署在集群里，也可以单独部署在集群外部，比如用docker compose的方式。
@@ -21,13 +21,13 @@ HyperKuber 在新版本发布的时候，其Web服务镜像和API Server镜像�
 
 HyperKuber 的核心功能可以概括为以下六个维度：
 
-![concept](../images/hyperkuber-arc-concept.png)
+![concept](/assets/images/hyperkuber-arc-concept.png)
 
 
 每一个维度包含的功能集如下:
 
 
-![funcset](../images/hyperkuber-arc-func.png)
+![funcset](/assets/images/hyperkuber-arc-func.png)
 
 
 

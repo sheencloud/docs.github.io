@@ -23,7 +23,7 @@ HyperShift 是在HyperKuber容器管理平台的基础上，增加了对OpenShif
 
 我们尽最大可能在该文档中对产品的功能特性提供详细的说明，但由于人力有限，难免有遗漏或者疏忽的地方，如果您发现有bug或者其他不明白的地方，可以在[这里](https://github.com/sheencloud/sheencloud.github.io/issues)提交issue，我们及时更新。
 
-(c) 2019 - 2022， [北京跃云科技有限公司](sheencloud.com)，版权所有。
+(c) 2019 - 2022， [北京跃云科技有限公司](https://sheencloud.com)，版权所有。
 
 文档授权方式：[CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/)
 
