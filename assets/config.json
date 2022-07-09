@@ -1,5 +1,5 @@
 {
-  "siteName": "HyperKuber",
+  "siteName": "SheenCloud",
   "logo": "assets/logo.svg",
   "languages": [
     {
@@ -73,7 +73,32 @@
           "type": "link",
           "state": "introduction",
           "docPath": "assets/start/introduction.md",
-          "tocEnabled": true
+          "tocEnabled": true,
+          "sub":[
+            {
+              "name": "Application Deploy",
+              "type": "link",
+              "state": "application-deploy",
+              "docPath": "assets/start/application-deploy.md",
+              "tocEnabled": true,
+              "sub":[
+                {
+                  "name": "Helm",
+                  "type": "link",
+                  "state": "helm",
+                  "docPath": "assets/start/application-deploy.md",
+                  "tocEnabled": true
+                }
+              ]
+            },
+            {
+              "name": "Application Control",
+              "type": "link",
+              "state": "application-control",
+              "docPath": "assets/start/application-control.md",
+              "tocEnabled": true
+            }
+          ]
         },
         {
           "name": "Prerequisites",
