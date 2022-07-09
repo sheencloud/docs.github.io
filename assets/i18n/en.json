@@ -10,6 +10,8 @@
   "Quick Start": "Quick Start",
   "Helm Chart": "Helm Chart",
   "Operator": "Operator",
-  "User Guide": "User Guide"
+  "User Guide": "User Guide",
+  "Application Deploy": "Application Deploy",
+  "Application Control": "Application Control"
 
 }

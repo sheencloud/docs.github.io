@@ -10,5 +10,7 @@
   "Quick Start": "快速开始",
   "Helm Chart": "Helm包",
   "Operator": "Operator安装",
-  "User Guide": "用户指南"
+  "User Guide": "用户指南",
+  "Application Deploy": "应用发布",
+  "Application Control": "应用管控"
 }
