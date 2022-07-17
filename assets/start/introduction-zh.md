@@ -76,3 +76,6 @@ HyperKuber 在其架构设计上采用无代理的实现方式，即无需在被
 + ### 安全合规
 
 HyperKuber 在新版本发布的时候，其Web服务镜像和API Server镜像均已经过安全扫描，以确保其无CVE脆弱性。 API Server服务和Kubernetes集群通信时支持TLS加密通信。 HyperKuber支持离线的方式部署安装，其所有件在离线方式下均可正常工作。 HyperKuber在除License激活所需数据外，不论是在安装还是运行时，都不会收集任何客户数据，完全兼容GDPR。详情可参考我们的[隐私策略](https://www.sheencloud.com/privacy-policy/).
+
+
+---
