@@ -22,6 +22,6 @@ HyperKuber 对Helm应用提供完整的部署方案。 Helm 仓库管理提供�
 ## Operator
 
 
-HyperKuber 支持Operator的类型的应用部署方式。 不论是社区的OLM还是OCP的Operatorhub，HyperKuber均支持对接部署operator。创建Operator支持的资源对象，管理Operator生命周期。
+HyperKuber支持Operator的类型的应用部署方式。 不论是社区的OLM还是OCP的Operatorhub，HyperKuber均支持对接部署operator。创建Operator支持的资源对象，管理Operator生命周期。
 
 ___
