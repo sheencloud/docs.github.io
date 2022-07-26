@@ -145,7 +145,44 @@
       "type": "dropDown",
       "state": "guides",
       "disabled": false,
-      "icon": "outlined_flag"
+      "icon": "outlined_flag",
+      "sub": [
+        {
+          "name": "License",
+          "type": "link",
+          "state": "license",
+          "docPath": "assets/guide/license.md",
+          "tocEnabled": true
+        },
+        {
+          "name": "Cluster",
+          "type": "link",
+          "state": "cluster",
+          "docPath": "assets/guide/cluster.md",
+          "tocEnabled": true
+        },
+        {
+          "name": "Tenant",
+          "type": "link",
+          "state": "tenant",
+          "docPath": "assets/guide/tenant.md",
+          "tocEnabled": true
+        },
+        {
+          "name": "Role",
+          "type": "link",
+          "state": "role",
+          "docPath": "assets/guide/role.md",
+          "tocEnabled": true
+        },
+        {
+          "name": "User",
+          "type": "link",
+          "state": "user",
+          "docPath": "assets/guide/user.md",
+          "tocEnabled": true
+        }
+      ]
     },
     {
       "name": "SheenCloud",
