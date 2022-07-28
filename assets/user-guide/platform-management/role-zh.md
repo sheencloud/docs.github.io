@@ -7,11 +7,11 @@ Hyperkuber默认创建4种平台角色，用户可以根据业务需求进行修
 * tenant-admin 租户管理员角色
 
 ## 平台角色操作
-![Minion](../../assets/images/role/list.jpg)
+![Minion](../../../assets/images/platform/role/list.jpg)
 ### 创建平台角色
 1，点击“平台管理”-“平台角色”-“创建平台角色”
 2，填写必填参数：
-![Minion](../../assets/images/role/create.jpg)
+![Minion](../../../assets/images/platform/role/create.jpg)
 * 角色名称： 角色在系统中的唯一标识
 * 角色描述： 平台角色的描述信息
 * 角色权限选择： 用户根据角色的定义选择此角色拥有的权限。

@@ -151,37 +151,497 @@
           "name": "License",
           "type": "link",
           "state": "license",
-          "docPath": "assets/guide/license.md",
+          "docPath": "assets/user-guide/license.md",
           "tocEnabled": true
         },
         {
-          "name": "Cluster",
+          "name": "Home",
           "type": "link",
-          "state": "cluster",
-          "docPath": "assets/guide/cluster.md",
-          "tocEnabled": true
+          "state": "home",
+          "docPath": "assets/user-guide/home/event.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "Events",
+              "type": "link",
+              "state": "event",
+              "docPath": "assets/user-guide/home/event.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Clusters",
+              "type": "link",
+              "state": "cluster",
+              "docPath": "assets/user-guide/home/cluster.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Projects",
+              "type": "link",
+              "state": "project",
+              "docPath": "assets/user-guide/home/project.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Status",
+              "type": "link",
+              "state": "status",
+              "docPath": "assets/user-guide/home/status.md",
+              "tocEnabled": true
+            }
+          ]
         },
         {
-          "name": "Tenant",
+          "name": "Application Catalog",
           "type": "link",
-          "state": "tenant",
-          "docPath": "assets/guide/tenant.md",
-          "tocEnabled": true
+          "state": "appliction",
+          "docPath": "assets/user-guide/application/application.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "Application",
+              "type": "link",
+              "state": "application",
+              "docPath": "assets/user-guide/application/application.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Helm",
+              "type": "link",
+              "state": "helm",
+              "docPath": "assets/user-guide/application/helm.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Operator",
+              "type": "link",
+              "state": "operator",
+              "docPath": "assets/user-guide/application/operator.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Custom",
+              "type": "link",
+              "state": "custom",
+              "docPath": "assets/user-guide/application/custom.md",
+              "tocEnabled": true
+            }
+          ]
         },
         {
-          "name": "Role",
+          "name": "Registry",
           "type": "link",
-          "state": "role",
-          "docPath": "assets/guide/role.md",
-          "tocEnabled": true
+          "state": "registry",
+          "docPath": "assets/user-guide/registry/registry.md",
+          "tocEnabled": true,
+          "sub":[  
+            {
+              "name": "Registries",
+              "type": "link",
+              "state": "registry",
+              "docPath": "assets/user-guide/registry/registry.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Image",
+              "type": "link",
+              "state": "image",
+              "docPath": "assets/user-guide/registry/image.md",
+              "tocEnabled": true
+            }
+          ]
         },
         {
-          "name": "User",
+          "name": "Workload",
           "type": "link",
-          "state": "user",
-          "docPath": "assets/guide/user.md",
-          "tocEnabled": true
-        }
+          "state": "workload",
+          "docPath": "assets/user-guide/workload/workload.md",
+          "tocEnabled": true,
+          "sub":[  
+            {
+              "name": "Deployments",
+              "type": "link",
+              "state": "deployment",
+              "docPath": "assets/user-guide/workload/deployment.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "StatefulSets",
+              "type": "link",
+              "state": "statefulset",
+              "docPath": "assets/user-guide/workload/statefulset.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "DaemonSets",
+              "type": "link",
+              "state": "daemonset",
+              "docPath": "assets/user-guide/workload/daemonset.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Cronjobs",
+              "type": "link",
+              "state": "cronjob",
+              "docPath": "assets/user-guide/workload/cronjob.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Jobs",
+              "type": "link",
+              "state": "job",
+              "docPath": "assets/user-guide/workload/job.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Pods",
+              "type": "link",
+              "state": "statefulset",
+              "docPath": "assets/user-guide/workload/pod.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Secrets",
+              "type": "link",
+              "state": "secret",
+              "docPath": "assets/user-guide/workload/secret.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "ConfigMaps",
+              "type": "link",
+              "state": "configmap",
+              "docPath": "assets/user-guide/workload/configmap.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "ReplicaSets",
+              "type": "link",
+              "state": "replicaset",
+              "docPath": "assets/user-guide/workload/replicaset.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "ReplicaControllers",
+              "type": "link",
+              "state": "replicacontroller",
+              "docPath": "assets/user-guide/workload/replicacontroller.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "HPAS",
+              "type": "link",
+              "state": "hpa",
+              "docPath": "assets/user-guide/workload/hpa.md",
+              "tocEnabled": true
+            }
+            
+          ]
+        },
+        {
+          "name": "Network",
+          "type": "link",
+          "state": "network",
+          "docPath": "assets/user-guide/network/endpoints.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "Endpoints",
+              "type": "link",
+              "state": "endpoints",
+              "docPath": "assets/user-guide/network/endpoints.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Services",
+              "type": "link",
+              "state": "service",
+              "docPath": "assets/user-guide/network/service.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "NetworkPolicies",
+              "type": "link",
+              "state": "networkpolicy",
+              "docPath": "assets/user-guide/network/networkpolicy.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Ingress",
+              "type": "link",
+              "state": "ingress",
+              "docPath": "assets/user-guide/network/ingress.md",
+              "tocEnabled": true
+            }
+          ]
+        },
+        {
+          "name": "Stroage",
+          "type": "link",
+          "state": "storage",
+          "docPath": "assets/user-guide/storage/pvc.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "Persistant Volumes Claims",
+              "type": "link",
+              "state": "pvc",
+              "docPath": "assets/user-guide/storage/pvc.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Persistant Volumes",
+              "type": "link",
+              "state": "pv",
+              "docPath": "assets/user-guide/storage/pv.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Stroage Classes",
+              "type": "link",
+              "state": "sc",
+              "docPath": "assets/user-guide/storage/sc.md",
+              "tocEnabled": true
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "type": "link",
+          "state": "resource",
+          "docPath": "assets/user-guide/resource/quota.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "Quotas",
+              "type": "link",
+              "state": "quota",
+              "docPath": "assets/user-guide/resource/quota.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Limit Ranges",
+              "type": "link",
+              "state": "limitrange",
+              "docPath": "assets/user-guide/resource/limitrange.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Service Accounts",
+              "type": "link",
+              "state": "sa",
+              "docPath": "assets/user-guide/resource/sa.md",
+              "tocEnabled": true
+            }
+          ]
+        },
+        {
+          "name": "GitOps",
+          "type": "link",
+          "state": "gitops",
+          "docPath": "assets/user-guide/gitops/repo.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "GitRepository",
+              "type": "link",
+              "state": "repo",
+              "docPath": "assets/user-guide/gitops/repo.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Clusters",
+              "type": "link",
+              "state": "cluster",
+              "docPath": "assets/user-guide/gitops/cluster.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Applications",
+              "type": "link",
+              "state": "application",
+              "docPath": "assets/user-guide/gitops/application.md",
+              "tocEnabled": true
+            }
+          ]
+        },
+
+        {
+          "name": "Logging",
+          "type": "link",
+          "state": "logging",
+          "docPath": "assets/user-guide/logging/audit.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "Audit",
+              "type": "link",
+              "state": "audit",
+              "docPath": "assets/user-guide/logging/audit.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Query Log",
+              "type": "link",
+              "state": "query",
+              "docPath": "assets/user-guide/logging/query.md",
+              "tocEnabled": true
+            }
+          ]
+        },
+
+        {
+          "name": "Monitoring & Alerts",
+          "type": "link",
+          "state": "monitoring",
+          "docPath": "assets/user-guide/monitoring/pod.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "Pods",
+              "type": "link",
+              "state": "pod",
+              "docPath": "assets/user-guide/monitoring/pod.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Projects",
+              "type": "link",
+              "state": "project",
+              "docPath": "assets/user-guide/monitoring/project.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Clusters",
+              "type": "link",
+              "state": "cluster",
+              "docPath": "assets/user-guide/monitoring/cluster.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Nodes",
+              "type": "link",
+              "state": "node",
+              "docPath": "assets/user-guide/monitoring/node.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Alerts",
+              "type": "link",
+              "state": "alert",
+              "docPath": "assets/user-guide/monitoring/alert.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Alert Rules",
+              "type": "link",
+              "state": "rule",
+              "docPath": "assets/user-guide/monitoring/rule.md",
+              "tocEnabled": true
+            }
+          ]
+        },
+
+        {
+          "name": "System",
+          "type": "link",
+          "state": "system",
+          "docPath": "assets/user-guide/system/namespace.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "Namespaces",
+              "type": "link",
+              "state": "namespace",
+              "docPath": "assets/user-guide/system/namespace.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Nodes",
+              "type": "link",
+              "state": "node",
+              "docPath": "assets/user-guide/system/node.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Roles",
+              "type": "link",
+              "state": "role",
+              "docPath": "assets/user-guide/system/role.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Cluster Roles",
+              "type": "link",
+              "state": "clusterrole",
+              "docPath": "assets/user-guide/system/clusterrole.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "CustomResourceDefinitions",
+              "type": "link",
+              "state": "crd",
+              "docPath": "assets/user-guide/system/crd.md",
+              "tocEnabled": true
+            }
+            
+          ]
+        },
+
+          {
+            "name": "Platform Management",
+            "type": "link",
+            "state": "platform",
+            "docPath": "assets/user-guide/platform-management/platform.md",
+            "tocEnabled": true,
+            "sub":[
+             
+              {
+                "name": "Clusters",
+                "type": "link",
+                "state": "cluster",
+                "docPath": "assets/user-guide/platform-management/cluster.md",
+                "tocEnabled": true
+              },
+              {
+                "name": "Tenant",
+                "type": "link",
+                "state": "tenant",
+                "docPath": "assets/user-guide/platform-management/tenant.md",
+                "tocEnabled": true
+              },
+              {
+                "name": "Platform Roles",
+                "type": "link",
+                "state": "role",
+                "docPath": "assets/user-guide/platform-management/role.md",
+                "tocEnabled": true
+              },
+              {
+                "name": "Users",
+                "type": "link",
+                "state": "user",
+                "docPath": "assets/user-guide/platform-management/user.md",
+                "tocEnabled": true
+              },
+              {
+                "name": "Global Settings",
+                "type": "link",
+                "state": "setting",
+                "docPath": "assets/user-guide/platform-management/settings.md",
+                "tocEnabled": true
+              }
+            ]
+          }
       ]
     },
     {
