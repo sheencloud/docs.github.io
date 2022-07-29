@@ -479,7 +479,6 @@
           "docPath": "assets/user-guide/logging/audit.md",
           "tocEnabled": true,
           "sub":[
-           
             {
               "name": "Audit",
               "type": "link",

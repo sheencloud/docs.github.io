@@ -37,10 +37,10 @@ helm chart是同步helm Repositories仓库的chart。
 * 版本： Helm chart 安装应用版本
 * 安装多集群： Helm chart 安装目标集群
 
-## InstalledChart包
+## InstalledCharts
 点击左侧”应用目录“-“InstalledCharts”菜单，进入相关页面操作
 ![Minion](../../../assets/images/helm/ins-list.jpg)
-### InstalledChart包包操作
+### InstalledCharts操作
 
 #### 详情
 选择"InstalledCharts”菜单,点击 “名称”连接：即可进入详情页面。
