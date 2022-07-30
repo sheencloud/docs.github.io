@@ -1,7 +1,7 @@
 # 告警
 
 ## 告警
-告警显示集群中的此刻产生的告警
+告警显示集群项目中的此刻产生的告警
 
 ![Minion](../../../assets/images/monitoring/alert.jpg)
 

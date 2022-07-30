@@ -25,12 +25,23 @@
 ### 应用详情
 点击“Git应用”列表的链接，进入Git应用详情页面。
 ![Minion](../../../assets/images/gitops/app-info1.jpg)
+Git应用拓扑
 ![Minion](../../../assets/images/gitops/app-info2.jpg)
+Git应用资源
 ![Minion](../../../assets/images/gitops/app-info3.jpg)
+Git仓库信息
 ![Minion](../../../assets/images/gitops/app-info4.jpg)
+Git应用与Git仓库同步状态
 ![Minion](../../../assets/images/gitops/app-info5.jpg)
-![Minion](../../../assets/images/gitops/app-info6.jpg)
+Git应用Yaml信息
+![Minion](../../../assets/images/gitops/app-info7.jpg)
+Yaml支持操作 
+* update
+* apply
+* merge
 
+Git应用事件信息
+![Minion](../../../assets/images/gitops/app-info6.jpg)
 ### 删除
 选择需要删除的Git应用，点击多选框选择，点击“删除”按钮，在确定输入框输入“yes”，即可完成删除操作。
 ### 刷新
