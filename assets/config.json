@@ -268,6 +268,13 @@
               "tocEnabled": true
             },
             {
+              "name": "DeploymentConfigs",
+              "type": "link",
+              "state": "deploymentconfig",
+              "docPath": "assets/user-guide/workload/deploymentconfig.md",
+              "tocEnabled": true
+            },
+            {
               "name": "StatefulSets",
               "type": "link",
               "state": "statefulset",
@@ -471,7 +478,37 @@
             }
           ]
         },
-
+        {
+          "name": "DevOps",
+          "type": "link",
+          "state": "devops",
+          "docPath": "assets/user-guide/devops/buildconfig.md",
+          "tocEnabled": true,
+          "sub":[
+           
+            {
+              "name": "GitRepository",
+              "type": "link",
+              "state": "buildconfig",
+              "docPath": "assets/user-guide/devops/buildconfig.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Clusters",
+              "type": "link",
+              "state": "build",
+              "docPath": "assets/user-guide/devops/build.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Applications",
+              "type": "link",
+              "state": "imagestream",
+              "docPath": "assets/user-guide/devops/imagestream.md",
+              "tocEnabled": true
+            }
+          ]
+        },
         {
           "name": "Logging",
           "type": "link",

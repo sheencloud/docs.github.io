@@ -1,6 +1,6 @@
 # 部署
 
-Deployment 是常用Workload的一种，Deployment为Pod和ReplicaSet提供声明式的更新能力。
+Deployment为Pod和ReplicaSet提供声明式的更新能力。
 ![Minion](../../../assets/images/workload/deploy-list.jpg)
 ## 部署操作
 
