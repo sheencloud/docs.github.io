@@ -145,6 +145,7 @@
       "type": "dropDown",
       "state": "guides",
       "disabled": false,
+      "docPath": "assets/user-guide/license.md",
       "icon": "outlined_flag",
       "sub": [
         {
@@ -305,7 +306,7 @@
             {
               "name": "Pods",
               "type": "link",
-              "state": "statefulset",
+              "state": "pod",
               "docPath": "assets/user-guide/workload/pod.md",
               "tocEnabled": true
             },
