@@ -257,7 +257,7 @@
           "name": "Workload",
           "type": "link",
           "state": "workload",
-          "docPath": "assets/user-guide/workload/workload.md",
+          "docPath": "assets/user-guide/workload/deployment.md",
           "tocEnabled": true,
           "sub":[  
             {
@@ -377,16 +377,23 @@
               "tocEnabled": true
             },
             {
-              "name": "Ingress",
+              "name": "Ingresses",
               "type": "link",
               "state": "ingress",
               "docPath": "assets/user-guide/network/ingress.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "IngressClass",
+              "type": "link",
+              "state": "ingressclass",
+              "docPath": "assets/user-guide/network/ingressclass.md",
               "tocEnabled": true
             }
           ]
         },
         {
-          "name": "Stroage",
+          "name": "Storage",
           "type": "link",
           "state": "storage",
           "docPath": "assets/user-guide/storage/pvc.md",
@@ -408,7 +415,7 @@
               "tocEnabled": true
             },
             {
-              "name": "Stroage Classes",
+              "name": "Storage Classes",
               "type": "link",
               "state": "sc",
               "docPath": "assets/user-guide/storage/sc.md",
@@ -456,7 +463,7 @@
           "sub":[
            
             {
-              "name": "GitRepository",
+              "name": "Repositories",
               "type": "link",
               "state": "repo",
               "docPath": "assets/user-guide/gitops/repo.md",
@@ -487,21 +494,28 @@
           "sub":[
            
             {
-              "name": "GitRepository",
+              "name": "BuildConfigs",
               "type": "link",
               "state": "buildconfig",
               "docPath": "assets/user-guide/devops/buildconfig.md",
               "tocEnabled": true
             },
             {
-              "name": "Clusters",
+              "name": "Pipelines",
+              "type": "link",
+              "state": "pipelines",
+              "docPath": "assets/user-guide/devops/pipeline.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Builds",
               "type": "link",
               "state": "build",
               "docPath": "assets/user-guide/devops/build.md",
               "tocEnabled": true
             },
             {
-              "name": "Applications",
+              "name": "ImageStreams",
               "type": "link",
               "state": "imagestream",
               "docPath": "assets/user-guide/devops/imagestream.md",
@@ -593,7 +607,13 @@
           "docPath": "assets/user-guide/system/namespace.md",
           "tocEnabled": true,
           "sub":[
-           
+            {
+              "name": "Cluster Events",
+              "type": "link",
+              "state": "clusterevent",
+              "docPath": "assets/user-guide/home/event.md",
+              "tocEnabled": true
+            },
             {
               "name": "Namespaces",
               "type": "link",
@@ -616,10 +636,24 @@
               "tocEnabled": true
             },
             {
+              "name": "RoleBinding",
+              "type": "link",
+              "state": "rolebinding",
+              "docPath": "assets/user-guide/system/rolebinding.md",
+              "tocEnabled": true
+            },
+            {
               "name": "Cluster Roles",
               "type": "link",
               "state": "clusterrole",
               "docPath": "assets/user-guide/system/clusterrole.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "ClusterRoleBinding",
+              "type": "link",
+              "state": "clusterrolebinding",
+              "docPath": "assets/user-guide/system/clusterrolebinding.md",
               "tocEnabled": true
             },
             {
