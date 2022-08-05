@@ -430,7 +430,6 @@
           "docPath": "assets/user-guide/resource/quota.md",
           "tocEnabled": true,
           "sub":[
-           
             {
               "name": "Quotas",
               "type": "link",
