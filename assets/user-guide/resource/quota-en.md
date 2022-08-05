@@ -1,6 +1,6 @@
 # 配额
 
-DaemonSet（配额）和守护进程类似，它在符合匹配条件的节点上均部署一个Pod
+资源配额提供了限制每个命名空间的聚合资源消耗的约束。
 ![Minion](../../../assets/images/resource/quota-list.jpg)
 ## 配额操作
 

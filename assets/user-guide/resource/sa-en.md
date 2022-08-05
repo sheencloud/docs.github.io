@@ -1,6 +1,6 @@
 # 服务账户
 
-DaemonSet（服务账户）和守护进程类似，它在符合匹配条件的节点上均部署一个Pod
+服务帐户为在 Pod 中运行的进程提供身份。
 ![Minion](../../../assets/images/resource/sa-list.jpg)
 ## 服务账户操作
 

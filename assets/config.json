@@ -290,7 +290,7 @@
               "tocEnabled": true
             },
             {
-              "name": "Cronjobs",
+              "name": "CronJobs",
               "type": "link",
               "state": "cronjob",
               "docPath": "assets/user-guide/workload/cronjob.md",
@@ -611,7 +611,7 @@
               "name": "Cluster Events",
               "type": "link",
               "state": "clusterevent",
-              "docPath": "assets/user-guide/home/event.md",
+              "docPath": "assets/user-guide/system/event.md",
               "tocEnabled": true
             },
             {
