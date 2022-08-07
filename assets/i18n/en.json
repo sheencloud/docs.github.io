@@ -55,6 +55,7 @@
   "Network": "Network",
   "Endpoints": "Endpoints",
   "Services": "Services",
+  "Routes":"Routes",
   "NetworkPolicies": "NetworkPolicies",
   "Ingresses": "Ingresses",
   "IngressClass": "IngressClass",

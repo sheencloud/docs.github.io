@@ -371,6 +371,13 @@
               "tocEnabled": true
             },
             {
+              "name": "Routes",
+              "type": "link",
+              "state": "route",
+              "docPath": "assets/user-guide/network/route.md",
+              "tocEnabled": true
+            },
+            {
               "name": "NetworkPolicies",
               "type": "link",
               "state": "networkpolicy",
