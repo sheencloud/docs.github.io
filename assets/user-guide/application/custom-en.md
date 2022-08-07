@@ -2,6 +2,7 @@
 
 
 ## 创建
+![Minion](../../../assets/images/operator/custom-create.jpg)
 ### 通过Yaml/Json
 用户可以Operator的定义的Yaml/Json粘贴，点击“创建”即可 
 ### 通过文件

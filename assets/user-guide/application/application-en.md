@@ -8,10 +8,11 @@
 点击左侧“应用目录”菜单-“公共”，共有应用即全部用户均查看以及使用
 ![Minion](../../../assets/images/application/pub-list.jpg)
 ### 共有应用操作
+![Minion](../../../assets/images/application/pub-operation.jpg)
 #### 编辑
 
 选择需要修改的应用，点击“更多”的按钮，点击“编辑”，即可对选择的应用进行编辑。
-![Minion](../../../assets/images/application/pub-edit.jpg)
+![Minion](../../../assets/images/application/pub-edit-yaml.jpg)
 编辑完成，点击“更新”按钮，完成编辑操作。
 
 #### 克隆
@@ -63,7 +64,7 @@
 #### 编辑
 
 选择需要修改的应用，点击“更多”的按钮，点击“编辑”，即可对选择的应用进行编辑。
-![Minion](../../../assets/images/application/pub-edit.jpg)
+![Minion](../../../assets/images/application/pub-edit-yaml.jpg)
 编辑完成，点击“更新”按钮，完成编辑操作。
 
 #### 共有

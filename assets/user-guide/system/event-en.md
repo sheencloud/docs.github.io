@@ -1,6 +1,6 @@
 # 事件
 
-event中可以显示集群资源的生命周期，为服务的客观测性提供数据来源。
+cluster event中可以显示集群资源的生命周期，为服务的客观测性提供数据来源。
 ![Minion](../../../assets/images/home/event-list.jpg)
 ## 事件操作
 

@@ -46,7 +46,14 @@
 
 
 ## Operator订阅
+![Minion](../../../assets/images/operator/sub-list.jpg)
 ### Operator订阅操作
+![Minion](../../../assets/images/operator/sub-operation.jpg)
+
+* 标签
+* 注解
+* Yaml/Json编辑
+
 #### 删除
 选择需要删除的已安装的chart包，点击多选框选择，点击“删除按钮”，在确定输入框输入“yes”，即可完成删除操作。
 #### 刷新
