@@ -36,12 +36,6 @@ Yaml信息
 事件信息
 ![Minion](../../../assets/images/network/route-info3.jpg)
 
-### 编辑
-选择需要编辑的路由，点击”编辑“按钮，进入编辑路由页面，修改必要参数，即可完成删除操作。
-* 支持图形化修改路由参数
-![Minion](../../../assets/images/network/route-edit1.jpg)
-* 支持Yaml修改
-![Minion](../../../assets/images/network/route-edit-yaml.jpg)
 ### 删除
 选择需要删除的路由，点击多选框选择，点击“删除按钮”，在确定输入框输入“yes”，即可完成删除操作。
 ### 刷新

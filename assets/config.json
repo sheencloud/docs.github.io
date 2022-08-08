@@ -33,7 +33,7 @@
       "name": "Home",
       "type": "dropDown",
       "state": "home",
-      "docPath": "assets/home.md",
+      "docPath": "assets/home/home.md",
       "disabled": false,
       "icon": "home",
       "sub":[
@@ -41,21 +41,21 @@
           "name": "Welcome",
           "type": "link",
           "state": "welcome",
-          "docPath": "assets/home.md",
+          "docPath": "assets/home/home.md",
           "tocEnabled": false
         },
         {
           "name": "What's New",
           "type": "link",
           "state": "whats-new",
-          "docPath": "assets/whatsnew.md",
+          "docPath": "assets/home/whatsnew.md",
           "tocEnabled": false
         },
         {
           "name": "Release Notes",
           "type": "link",
           "state": "release-notes",
-          "docPath": "assets/release-notes.md",
+          "docPath": "assets/home/release-notes.md",
           "tocEnabled": false
         }
       ]

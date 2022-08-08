@@ -24,10 +24,10 @@ Yaml信息
 ![Minion](../../../assets/images/devops/build-info2.jpg)
 构建历史信息
 ![Minion](../../../assets/images/devops/build-info3.jpg)
-环境信息
-![Minion](../../../assets/images/devops/build-info4.jpg)
 事件信息
-![Minion](../../../assets/images/devops/build-info5.jpg)
+![Minion](../../../assets/images/devops/build-info4.jpg)
+
+
 
 ### 删除
 选择需要删除的构建，点击多选框选择，点击“删除按钮”，在确定输入框输入“yes”，即可完成删除操作。
