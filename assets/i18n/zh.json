@@ -93,6 +93,7 @@
   "Cluster Roles": "集群角色",
   "ClusterRoleBinding": "集群角色绑定",
   "CustomResourceDefinition": "自定义资源",
+  "CustomResourceDefinitions": "自定义资源",
   "Platform Management": "平台管理",
   "Users": "用户",
   "User": "用户",

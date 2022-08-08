@@ -11,4 +11,4 @@ event支持metadata.name关键字进行搜索
 点击事件名称的链接，显示事件详情
 ![Minion](../../../assets/images/home/event-detail.jpg)
 ### 刷新
-点击“刷新”，即可完成Git应用列表的刷新。
+点击“刷新”，即可完成事件列表的刷新。

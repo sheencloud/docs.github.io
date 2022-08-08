@@ -2,15 +2,17 @@
 
 HyperKuber支持多集群管理，用户可以注册Kubernetes或者Openshift集群，通过Hyperkuber实现多集群管理。
 
-## 注册集群
+## 集群管理操作
+![Minion](../../../assets/images/platform/cluster-operation.jpg)
+### 注册集群
 1，首次登陆Hyperkuber的管理控制台界面，请使用系统默认的用户名/密码登陆，登陆成功以后，显示集群注册页面
-![Minion](../../../assets/images/platform/cluster/register.jpg)
+![Minion](../../../assets/images/platform/cluster-create1.jpg)
 点击“注册新集群”按钮进入集群注册页面
 
 2，登陆Hyperkuber的管理控制台界面，点击左侧菜单 “平台管理”-“集群”，进行集群管理操作。
 
 填写注册集群必填参数
-![Minion](../../../assets/images/platform/cluster/parameters.jpg)
+![Minion](../../../assets/images/platform/cluster-create1.jpg)
 参数说明：
 注：以下参数中的地址为Kubernetes Ingress或者Openshift Route，Hyperkuber的多集群管理是通过集群外访问的方式访问集群以及集群中的监控，日志，告警等服务
 * 集群名称： 用户集群的名称
@@ -43,14 +45,25 @@ kubectl -n kube-system get secret $TOKENNAME -o jsonpath='{.data.token}' | base6
 将上面命令行输出的token结果，复制，粘贴到ClusterToken的输入框中
 ```
 
-## 集群操作
 ### 启用/禁用集群
 
 启用：选择需要禁用的集群，拖动至“启用”，即可完成集群的启用
 禁用：选择需要启用的集群，拖动至“禁用”，即可完成集群的禁用
 ### 编辑集群
 
+![Minion](../../../assets/images/platform/cluster-edit.jpg)
 选择需要编辑的集群，点击“编辑按钮”，修改相关的集群参数，参数说明参照“注册集群”的参数说明修改，修改完成后，点击“保存”即可。
+
+### 集群详情
+集群概览信息
+![Minion](../../../assets/images/platform/cluster-info1.jpg)
+集群告警频道，用于告警信息发送
+![Minion](../../../assets/images/platform/cluster-info1.jpg)
+#### 创建集群告警频道
+![Minion](../../../assets/images/platform/cluster-alert-create.jpg)
+SMTP邮件配置：
+
+
 ### 删除集群
 
 选择需要删除的集群，点击多选框选择，点击“删除按钮”，在确定输入框输入“yes”，即可完成删除操作。

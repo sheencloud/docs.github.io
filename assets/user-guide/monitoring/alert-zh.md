@@ -12,7 +12,7 @@
 ### 静默
 
 #### 创建
-![Minion](../../../assets/images/monitoring/silence-create.jpg)
+![Minion](../../../assets/images/monitoring/silence-create1.jpg)
 参数设置：
 * 静默规则开始时间
 * 静默规则截止时间

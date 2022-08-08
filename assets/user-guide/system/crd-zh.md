@@ -13,7 +13,7 @@
 
 ### 创建
 创建自定义资源，点击“创建自定义资源”按钮，进入创建自定义资源页面，填写必要参数
-![Minion](../../../assets/images/system/crd-create1.jpg)
+![Minion](../../../assets/images/system/crd-create-yaml.jpg)
 参数
 名称：自定义资源名称
 规则：

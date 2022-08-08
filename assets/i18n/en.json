@@ -93,6 +93,7 @@
   "Cluster Roles": "Cluster Roles",
   "ClusterRoleBinding": "ClusterRoleBinding",
   "CustomResourceDefinition": "CustomResourceDefinition",
+  "CustomResourceDefinitions": "CustomResourceDefinitions",
   "Platform Management": "Platform Management",
   "Users": "Users",
   "User": "User",
