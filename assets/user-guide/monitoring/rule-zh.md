@@ -6,13 +6,15 @@
 ![Minion](../../../assets/images/monitoring/rule-list.jpg)
 
 ## 告警规则操作
+
+![Minion](../../../assets/images/monitoring/rule-operation.jpg)
 ### 创建
 点击“创建”按钮，进入创建页面，填写必要参数：
-![Minion](../../../assets/images/monitoring/rule-create.jpg)
+![Minion](../../../assets/images/monitoring/rule-create1.jpg)
 
 ### 详情
 
-![Minion](../../../assets/images/monitoring/rule-info.jpg)
+![Minion](../../../assets/images/monitoring/rule-info1.jpg)
 ![Minion](../../../assets/images/monitoring/rule-info2.jpg)
 * Label
 支持修改告警规则的Label信息

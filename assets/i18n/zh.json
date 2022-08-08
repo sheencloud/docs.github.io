@@ -99,6 +99,7 @@
   "Tenant": "租户",
   "Tenants": "租户",
   "Platform Roles": "平台角色",
-  "Global Settings": "平台设置"
+  "Global Settings": "平台设置",
+  "Alerts Silences": "告警静默"
 
 }

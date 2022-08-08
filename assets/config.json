@@ -598,6 +598,13 @@
               "tocEnabled": true
             },
             {
+              "name": "Alerts Silences",
+              "type": "link",
+              "state": "silence",
+              "docPath": "assets/user-guide/monitoring/silence.md",
+              "tocEnabled": true
+            },
+            {
               "name": "Alert Rules",
               "type": "link",
               "state": "rule",
