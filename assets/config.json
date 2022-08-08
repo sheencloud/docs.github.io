@@ -145,14 +145,14 @@
       "type": "dropDown",
       "state": "guides",
       "disabled": false,
-      "docPath": "assets/user-guide/license.md",
+      "docPath": "assets/user-guide/license/license.md",
       "icon": "outlined_flag",
       "sub": [
         {
           "name": "License",
           "type": "link",
           "state": "license",
-          "docPath": "assets/user-guide/license.md",
+          "docPath": "assets/user-guide/license/license.md",
           "tocEnabled": true
         },
         {
