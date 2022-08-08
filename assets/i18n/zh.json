@@ -55,6 +55,7 @@
   "Network": "网络",
   "Endpoints": "端点",
   "Services": "服务",
+  "Routes":"路由",
   "NetworkPolicies": "网络策略",
   "Ingresses": "入口",
   "IngressClass": "入口类",
