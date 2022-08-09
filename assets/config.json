@@ -143,7 +143,23 @@
           "type": "link",
           "state": "license",
           "docPath": "assets/user-guide/license/license.md",
-          "tocEnabled": true
+          "tocEnabled": true,
+          "sub":[
+            {
+              "name": "Trial",
+              "type": "link",
+              "state": "trial",
+              "docPath": "assets/user-guide/license/trial.md",
+              "tocEnabled": true
+            },
+            {
+              "name": "Subscription",
+              "type": "link",
+              "state": "subscription",
+              "docPath": "assets/user-guide/license/subscription.md",
+              "tocEnabled": true
+            }
+          ]
         }
       ]
     },
