@@ -137,6 +137,13 @@
               "tocEnabled": true
             }
           ]
+        },
+        {
+          "name": "License",
+          "type": "link",
+          "state": "license",
+          "docPath": "assets/user-guide/license/license.md",
+          "tocEnabled": true
         }
       ]
     },
@@ -148,13 +155,6 @@
       "docPath": "assets/user-guide/license/license.md",
       "icon": "outlined_flag",
       "sub": [
-        {
-          "name": "License",
-          "type": "link",
-          "state": "license",
-          "docPath": "assets/user-guide/license/license.md",
-          "tocEnabled": true
-        },
         {
           "name": "Home",
           "type": "link",
