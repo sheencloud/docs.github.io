@@ -101,6 +101,7 @@
   "Tenants": "租户",
   "Platform Roles": "平台角色",
   "Global Settings": "平台设置",
-  "Alerts Silences": "告警静默"
-
+  "Alerts Silences": "告警静默",
+  "Trial": "试用",
+  "Subscription":"订阅"
 }

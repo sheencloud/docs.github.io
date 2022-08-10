@@ -101,6 +101,7 @@
   "Tenants": "Tenants",
   "Platform Roles": "Platform Role",
   "Global Settings": "Global Settings",
-  "Alerts Silences": "Alerts Silences"
-
+  "Alerts Silences": "Alerts Silences",
+  "Trial": "Trial",
+"Subscription":"Subscription"
 }
