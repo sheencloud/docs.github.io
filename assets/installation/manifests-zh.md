@@ -4,7 +4,7 @@
 ### empty volume
 * 安装demo演示环境，集群中无持久化存储，所有存储使用emptyDir
 ```
-kubectl apply -f https://raw.githubusercontent.com/sheencloud/hyperkuber/main/manifests/manifest.yaml
+kubectl apply -f https://manifests.sheencloud.com/manifests/manifest.yaml
 ```
 通过查看pod状态，确定安装是否。
 ```
@@ -18,7 +18,7 @@ kubectl get ing -n hyperkuber
 ### persistent volume
 * 安装持久化存储环境，集群中存在持久化存储PV或者StorageClass
 ```
-kubectl apply -f https://raw.githubusercontent.com/sheencloud/hyperkuber/main/manifests/manifest-persistent.yaml
+kubectl apply -f https://manifests.sheencloud.com/manifests/manifest-persistent.yaml
 ```
 通过查看pod状态，确定安装是否。
 ```

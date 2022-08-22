@@ -34,7 +34,7 @@ HyperKuber支持多集群管理，用户可以注册Kubernetes或者Openshift集
 kubectl -n kube-system create serviceaccount hyperkuber
 
 ## 创建ClusterRoleBinding 
-kubectl create clusterrolebinding hyperkuber-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:hyperkuber
+kubectl create clusterrolebinding system-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:hyperkuber
 
 ## 获取TokenName
 TOKENNAME=`kubectl -n kube-system get serviceaccount/hyperkuber -o jsonpath='{.secrets[0].name}'`

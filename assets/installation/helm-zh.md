@@ -267,7 +267,7 @@ mysql,redis修改Values.yaml的参照bitnami配置
 # redis：https://raw.githubusercontent.com/bitnami/charts/master/bitnami/redis/values.yaml
 ```
 
-4，安装Chart
+安装Chart
 ```
 helm install hyperkuber hyperkuber/hyperkuber -n hyperkuber --create-namespace -f values.yaml
 ```
