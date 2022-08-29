@@ -13,6 +13,9 @@ A list of service that can be installed for more functionality, (Not Required, b
 + ## ElasticSearch
   For Logging system.
 
++ ## Harbor
++ For registry management.
+
 
 
 
