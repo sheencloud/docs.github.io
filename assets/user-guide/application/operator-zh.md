@@ -22,21 +22,24 @@
 #### 详情
 选择"InstalledOperators”菜单,点击 “名称”连接：即可进入详情页面。
 安装operator的概览信息
+
 ![Minion](../../../assets/images/operator/installed-info1.jpg)
 安装operator事件显示
+
 ![Minion](../../../assets/images/operator/installed-info2.jpg)
 安装operator中CRD显示以及操作
+
 ![Minion](../../../assets/images/operator/installed-info3.jpg)
 ![Minion](../../../assets/images/operator/installed-info4.jpg)
 * Label
 支持修改Operator的Label信息
-![Minion](../../../assets/images/operator/info-label.jpg)
+
 * Annotations
 支持修改Operator的Annotation信息
-![Minion](../../../assets/images/operator/info-annotation.jpg)
+
 * Yaml
 支持修改Operator的Yaml信息
-![Minion](../../../assets/images/operator/info-yaml.jpg)
+
 
 #### 删除
 选择需要删除的已安装的chart包，点击多选框选择，点击“删除按钮”，在确定输入框输入“yes”，即可完成删除操作。
