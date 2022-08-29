@@ -18,5 +18,5 @@ helm pull sheencloud/hyperkuber
 
 4. Install Chart
 ````
-helm install hkcmp -f hyperkuber-0.1.0.tgz -n hyperkuber --create-namespace
+helm install hyperkuber hyperkuber/hyperkuber -n hyperkuber --create-namespace
 ````
