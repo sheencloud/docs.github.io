@@ -5,6 +5,10 @@
 * 安装demo演示环境，集群中无持久化存储，所有存储使用emptyDir
 ```
 kubectl apply -f https://manifests.sheencloud.com/manifests/manifest.yaml
+
+或者
+
+kubectl apply -f https://manifests.sheencloud.com/manifests/manifest-psp.yaml  #for psp enabled clusters
 ```
 通过查看pod状态，确定安装是否。
 ```

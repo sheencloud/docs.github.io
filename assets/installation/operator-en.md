@@ -3,11 +3,11 @@
 
 ### Install hyperkuber-controller
 
-````
+```
 kubectl apply -f https://manifests.sheencloud.com/manifest/operator.yaml
-````
+```
 ### Install hyperkuber in demo mode
-````
+```
 apiVersion: operator.hyperkuber.io/v1
 kind: Hkcmp
 metadata:
@@ -15,7 +15,7 @@ metadata:
 spec:
   managed: true
   strategy: demo
-````
+```
 Notes:
 managed: true indicates that the components of hyperkuber are managed by the operator throughout the life cycle
 strategy: Currently supports two kinds: demo, prod.
@@ -24,7 +24,7 @@ Prod needs to configure the hyperkuber component (hyperkuber-server) to use stor
 
 
 ### install hyperkuber in prod mode
-````
+```
 apiVersion: operator.hyperkuber.io/v1
 kind: Hkcmp
 metadata:
@@ -61,11 +61,11 @@ spec:
       - hosts:
           - console.hyperkuber.io
         secretName: hyperkuber-cloud-local-tls
-````
+```
 Notes:
 spec.config
 Mysql configuration
-````
+```
 host: "127.0.0.1" ##mysql address
 port: 3306 ##mysql port
 username: "root" ##mysql login username
@@ -73,14 +73,14 @@ password: "hyperkuber" ##mysql login password
 database: "hyperkuber" ##mysql database name
 migrate: true ##default is true, automatically create mysql database table and import mysql data
 log: "DEBUG" ##golang gorm operates mysql log level
-````
+```
 Redis configuration
-````
+```
 addr: "127.0.0.1:6379" ## redis address
 password: "" ## redis password
-````
+```
 hyperkuber component configuration
-````
+```
  storage: ##Storage configuration, refer to k8s volume configuration
     emptyDir: {}
   server: ## hyperkuber-server configuration
@@ -98,4 +98,4 @@ hyperkuber component configuration
       - hosts:
           - console.hyperkuber.io
         secretName: hyperkuber-cloud-local-tls ## hyperkuber ingress certificate configuration
-````
+```
