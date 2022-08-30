@@ -33,4 +33,4 @@ Document License: [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/)
 
 Our product comes with a 14-day free trial. At any time, including the trial period, you can go through our official communities: [Slack Channel](https://sheencloud-workspace.slack.com), [Forum](https://github.com/orgs/sheencloud/discussions), [Twitter](https://twitter.com/sheen_cloud), YouTube, [Github](https://github.com/sheencloud), WeChat group and other social media feel free to contact us.
 
-For subscribed users, in addition to the above methods, you can also submit tickets through our [Customer Center](https://accounts.sheencloud.com), or send an email to our [Support Email](mailto:support@ sheencloud.com), bring your subscription key, we will answer your questions as soon as possible.
+For subscribed users, in addition to the above methods, you can also submit tickets through our [Customer Center](https://accounts.sheencloud.com), or send an email to our [Support Email](mailto:support@sheencloud.com), bring your subscription key, we will answer your questions as soon as possible.
