@@ -35,7 +35,7 @@ spec:
       host: "127.0.0.1"
       port: 3306
       username: "root"
-      password: "hyper kub er"
+      password: "hyperkuber"
       database: "hyperkuber"
       migrate: true
       log: "DEBUG"

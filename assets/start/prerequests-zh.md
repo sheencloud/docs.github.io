@@ -36,7 +36,7 @@ helm install my-kibana elastic/kibana --version 7.17.3 -n logging --create-names
 # helm安装 filebeat (https://artifacthub.io/packages/helm/elastic/filebeat)
 
 helm repo add elastic https://helm.elastic.co
-helm install my-filebeat elastic/filebeat --version 7.17.3
+helm install my-filebeat elastic/filebeat --version 7.17.3 -n logging --create-namespace
 ```
 
 + ## Harbor
