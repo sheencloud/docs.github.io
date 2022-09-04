@@ -66,7 +66,7 @@ If Prometheus, ES, Argocd, Harbor and hyperkuber deploy the same cluster, the co
 + ## Harbor
    By default, the built-in inner cluster has no harbor configuration. Open the menu: Mirror Warehouse - Mirror Warehouse - Connect Mirror Warehouse, and enter the Link Mirror Warehouse page to fill in
 
-![Minion](../../assets/images/registry/create.jpg)
+![Minion](../../assets/images/registry/create-en.jpg)
 
 + ## ArgoCD
     The default built-in inner cluster has no argocd configuration, open the menu: Platform Management - Global Configuration - Basic Configuration, select Gitops to fill in the configuration
