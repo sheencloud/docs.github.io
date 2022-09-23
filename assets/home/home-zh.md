@@ -32,4 +32,4 @@ HyperShift 是在HyperKuber容器管理平台的基础上，增加了对OpenShif
 
 我们的产品提供14天的免费试用。在任何时候，包括试用期内，您可以通过我们的官方社区：[Slack Channel](https://sheencloud-workspace.slack.com)，[论坛](https://forum.sheencloud.com)，[Twitter](https://twitter.com/sheen_cloud)， YouTube，[Github](https://github.com/sheencloud)，微信群等社交媒体随时与我们联系。
 
-对于已订阅用户，除了以上方式外，您还可以通过在我们的[客户中心](https://accounts.sheencloud.com)提交tickets，或者发邮件至我们的[支持邮箱](mailto:support@sheencloud.com)，带上您的订阅key，我们会在第一时间解答您的疑问。
+对于已订阅用户，除了以上方式外，您还可以通过在我们的[客户中心](https://account.sheencloud.com)提交tickets，或者发邮件至我们的[支持邮箱](mailto:support@sheencloud.com)，带上您的订阅key，我们会在第一时间解答您的疑问。
